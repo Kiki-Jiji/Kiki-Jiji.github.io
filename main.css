@@ -35,6 +35,10 @@ body {
   height: 800px;
 }
 
+.book {
+    padding-top: 50px;
+}
+
 .overlay {
   position: absolute;
   min-height: 100%;
