@@ -4,10 +4,6 @@ body {
   background: #White;
 }
 
-.card-img-top {
-  height: 600px
-  width: auto;
-}
 
 .navbar {
   background: #ED9EBE;
@@ -40,8 +36,14 @@ body {
   height: 800px;
 }
 
-.book {
+.book h1 {
     padding-top: 50px;
+    font-size: 5em;
+}
+
+.book h3 {
+    font-size: 2em;
+    font-family: "Century Gothic";
 }
 
 .overlay {
