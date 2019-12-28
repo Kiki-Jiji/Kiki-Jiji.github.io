@@ -1,3 +1,4 @@
+<!--
 Skip to content
 Search or jump to…
 
@@ -19,12 +20,13 @@ Kiki-Jiji.github.io/index.html
 f4ba8fe 4 days ago
 @Kiki-Jiji@loudsneeze
 120 lines (107 sloc)  4.49 KB
+-->
   
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Becky Webpage</title>
+  <title>Rebecca Paulinyi Webpage</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -66,7 +68,8 @@ f4ba8fe 4 days ago
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active"><a href="https://www.google.com">
+      <div class="carousel-item"><a href="https://www.google.com">
+
         <img src="images/ohbro.jpg" class="d-block w-100" alt="..."></a>
         <div class="carousel-caption d-none d-md-block">
           <h5>This ia book</h5>
@@ -75,6 +78,7 @@ f4ba8fe 4 days ago
       </div>
       <div class="carousel-item"><a href="https://www.google.com">
         <img src="images/famp.jpg" class="d-block w-100" alt="..."></a>
+
       </div>
       <div class="carousel-item"><a href="https://www.google.com">
         <img src="images/christmas.png" class="d-block w-100" alt="..."></a>
@@ -130,15 +134,31 @@ f4ba8fe 4 days ago
 
 
 
-<script src="main.js"></script>
-</body>
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("carousel-item");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+</script>
+</body>
+<!--
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-crossorigin="anonymous"></script>
+crossorigin="anonymous"></script>-->
 </html>
 © 2019 GitHub, Inc.
 Terms
