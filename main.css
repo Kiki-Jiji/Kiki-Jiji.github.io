@@ -39,11 +39,13 @@ body {
 .book h1 {
     padding-top: 50px;
     font-size: 5em;
+    text-align: center;
 }
 
-.book h3 {
-    font-size: 2em;
+.book h4 {
+    font-size: 1.2em;
     font-family: "Century Gothic";
+    line-height: 2;
 }
 
 .overlay {
