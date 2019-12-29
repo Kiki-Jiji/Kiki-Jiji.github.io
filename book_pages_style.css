@@ -59,3 +59,16 @@
     visibility: visible;
   }
 }
+
+.container-fluid {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.carousel-item {
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
