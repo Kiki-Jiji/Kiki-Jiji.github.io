@@ -36,18 +36,6 @@ body {
   height: 800px;
 }
 
-.book h1 {
-    padding-top: 50px;
-    font-size: 5em;
-    text-align: center;
-}
-
-.book h4 {
-    font-size: 1.2em;
-    font-family: "Century Gothic";
-    line-height: 2;
-}
-
 .overlay {
   position: absolute;
   min-height: 100%;
