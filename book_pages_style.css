@@ -72,6 +72,10 @@
 
 }
 
+.card-body {
+  text-align: center;
+}
+
 .book h1 {
     padding-top: 50px;
     font-size: 5em;
