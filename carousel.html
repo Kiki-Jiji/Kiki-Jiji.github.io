@@ -1,0 +1,62 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rebecca Paulinyi Webpage</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+    
+  <div style="text-align:center;" >
+  <div class="onecarouselitem" style="position:relative;">
+<a href="https://www.google.com">
+      
+<img src="images/ohbro.jpg"  class="d-block w-50" alt="..."></a>
+        </div>
+      </div>
+
+      <div class="onecarouselitem" style="position:relative;">
+<a href="https://www.google.com">
+        <img src="images/famp.jpg"  class="d-block w-50" alt="..."></a>
+</div>
+      
+      <div class="onecarouselitem" style="position:relative;">
+<a href="https://www.google.com">
+        <img src="images/christmas.png"  class="d-block w-50" alt="..."></a>
+      </div>
+    </div>  
+
+    
+
+
+  
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("onecarouselitem");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  
+
+x[myIndex-1].style.display = "block";  
+setTimeout(carousel, 4000);    
+}
+
+</script>
+
+
+
+</body>
+</html>

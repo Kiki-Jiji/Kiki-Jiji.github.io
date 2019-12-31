@@ -32,7 +32,13 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 800px;
+/*
+  height: 984px;
+  width:1750px;
+*/
+height: 492px;
+width: 875px;
+
 }
 
 .overlay {
@@ -137,4 +143,18 @@ min-height: 50px;
 border-radius: 0 20px 20px 0;
 background: #243c4f;
 color: #fff;
+}
+
+.carousel-item{
+position:relative;
+display:none;
+/*
+align-items:center;
+-ms-flex-align:center;
+*/
+text-align:center;
+width:100%;-webkit-backface-visibility:hidden;
+backface-visibility:hidden;
+-webkit-perspective:1000px;
+perspective:1000px
 }
