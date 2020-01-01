@@ -63,6 +63,11 @@
 .container-fluid {
   padding-left: 300px;
   padding-right: 300px;
+  padding-bottom: 50px;
+}
+
+.container-fluid h1 {
+  font-family: "Helvetica Neue";
 }
 
 .carousel-item {
@@ -86,4 +91,9 @@
     font-size: 1.2em;
     font-family: "Verdana";
     line-height: 1.9;
+}
+
+.book-footer {
+   background-color:#26272b;
+   color:#737373;
 }
