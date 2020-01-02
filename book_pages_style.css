@@ -170,3 +170,27 @@
     font-weight:600
   }
 }
+
+.book-footer hr {
+  border-top-color:#bbb;
+  opacity:0.5;
+}
+
+.footer-links li {
+  display:block
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links a
+{
+  color:#737373
+}
+
+.sec-col {
+  padding-left: 100px;
+}
