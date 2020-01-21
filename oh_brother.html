@@ -15,7 +15,7 @@
 
 <body>
 
-<div id="header"></div>
+<div id="main_navbar"></div>
 
 <section class="book">
 <div class="container">
@@ -150,14 +150,20 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 foot-col">
+<<<<<<< HEAD
           <h1>Rebecca Paulinyi</h1>
           <h1>Author </h1>
+=======
+          <dt>Rebecca Paulinyi</dt>
+          <dl>Author </dl>
+>>>>>>> merge
       </div>
       <div class="col-lg-4 foot-col">
-        <h3>Contact <br> rebeccapaulinyi@gmail.com </h3>
+        <dt>Contact</dt>
+        <dl>rebeccapaulinyi@gmail.com </dl>
       </div>
       <div class="col-lg-4 sec-col">
-        <h2>Links</h2>
+        <dt>Links</dt>
         <ul class="footer-links">
           <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">About Me</a></li>
           <li><a href="https://www.jojomoyes.com/books/the-ship-of-brides/">Privacy Policy</a></li>
@@ -218,7 +224,7 @@ $(document).ready(function() {
 </script>
 <script>
   $(document).ready(function(){
-    $('header').loadHTML('navbar.html');
+    $('#main_navbar').loadHTML('navbar.html');
   })
 </script>
 
