@@ -5,6 +5,11 @@ body {
 }
 
 
+.social li {
+    padding-left: 20px;
+}
+
+
 .navbar {
   background: #ED9EBE;
 }
