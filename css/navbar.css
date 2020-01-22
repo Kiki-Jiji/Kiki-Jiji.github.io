@@ -1,0 +1,27 @@
+
+.social li {
+    padding-left: 20px;
+}
+
+.navbar {
+  background: #ED9EBE;
+}
+
+.nav-link {
+  margin-right: 1em;
+  color: Black;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
