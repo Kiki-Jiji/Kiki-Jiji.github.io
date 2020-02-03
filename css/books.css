@@ -11,10 +11,6 @@ body {
   margin: 2em;
 }
 
-.btn-group {
-  
-}
-
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -42,7 +38,12 @@ body {
 }
 
 .flip-card-back {
+  padding: 1em;
   background-color:#000000;
   color: white;
   transform: rotateY(180deg);
+}
+
+.bottom-row {
+  margin-bottom: 2em;
 }
