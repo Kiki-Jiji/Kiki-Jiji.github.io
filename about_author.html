@@ -15,10 +15,47 @@
 <link rel="stylesheet" href="/css/navbar.css">
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/footer.css">
+<link rel="stylesheet" href="/css/about_author.css">
 </head>
 
 <body>
   <div id="main_navbar"> </div>
+
+<div class="container bio">
+ <div class="row">
+   <div class="col-lg-6">
+     <img src="images/stock_female.jpg" alt="">
+   </div>
+   <div class="col-lg-6 ">
+    <p>Rebecca Paulinyi was born in the South West of England in February 1992. She has been writing since she was a child, starting with short stories and poems that rarely got finished. Her weekly school assignment of writing a diary about the weekend provided a perfect platform to be inventive, with Rebecca's stories revolving around the aliens living on Planet Odd.</p>
+    </div>
+ </div>
+ <div class="row hidden non">
+   <div class="col-lg-6 ">
+    <p>Writing has been her passion for years, and the unfinished stories became full length novels as she became a teenager. At eighteen she left home to go to York University, studying English Language and Linguistics, and following her graduation qualified as a teacher. Alongside writing, Rebecca teaches in a primary school in Bristol, where she lives with her husband and dog.</p>
+    </div>
+    <div class="col-lg-6">
+      <img src="images/author.jpg" style="width:400px;height:300px;">
+    </div>
+ </div>
+ <div class="row hidden1 non">
+   <img src="images/bridge.jpg" alt="">
+ </div>
+ <div class="row">
+   <div class="col-lg-6">
+     <h3>Locations</h3>
+     <ul>
+       <li>Bristol</li>
+       <li>Devon</li>
+       <li>Edinburgh</li>
+     </ul>
+   </div>
+   <div class="col-lg-6">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+   </div>
+ </div>
+</div>
+
 
   <div id="main_newsletter"></div>
 
@@ -31,6 +68,34 @@
       $('#main_footer').load('blocks/footer.html');
       $("#main_newsletter").load("blocks/newsletter.html")
     })
+  </script>
+
+  <script type="text/javascript">
+
+      (function() {
+
+          var aboutEl = $('div.hidden'),
+              aboutElOffset = aboutEl.offset().top,
+              documentEl = $(document);
+
+          documentEl.on('scroll', function() {
+              if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden') ) aboutEl.removeClass('hidden');
+          });
+
+      })();
+
+      (function() {
+
+          var aboutEl = $('div.hidden1'),
+              aboutElOffset = aboutEl.offset().top,
+              documentEl = $(document);
+
+          documentEl.on('scroll', function() {
+              if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden1') ) aboutEl.removeClass('hidden1');
+          });
+
+      })();
+
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
