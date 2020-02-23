@@ -7,17 +7,16 @@
   background: #ED9EBE;
 }
 
-.nav-link {
+.links {
   margin-right: 1em;
   color: Black;
 }
 
-.nav-link:hover {
+.links:hover {
   color: #000;
 }
 
-.nav-link,
-.navbar-brand {
+.links {
   color: #fff;
   cursor: pointer;
 }
