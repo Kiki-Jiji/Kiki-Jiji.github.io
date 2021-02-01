@@ -99,9 +99,16 @@
 
 .footer-links a
 {
-  color:#737373
+  color: #0871e3
 }
 
 .sec-col {
   padding-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .sec-col {
+    padding-left: 15px !important;
+    padding-top: 15px;
+  }
 }

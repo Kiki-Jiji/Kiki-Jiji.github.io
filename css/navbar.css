@@ -1,6 +1,17 @@
+/*  if desktop then hide mobile   */
+.mobile {
+  display: none;
+}
 
-.social li {
+/*  if below 600px then hide deskptop and show mobile   */
+@media only screen and (max-device-width: 600px) {
+    .mobile{display: block;}
+    .desktop {display: none;}
+}
+
+.social > li {
     padding-left: 20px;
+    display: inline-block;
 }
 
 .navbar {
