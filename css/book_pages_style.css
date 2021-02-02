@@ -9,6 +9,10 @@
   height: 2em;
 }
 
+.card {
+  margin: auto;
+}
+
 .container-fluid {
   padding-left: 300px;
   padding-right: 300px;

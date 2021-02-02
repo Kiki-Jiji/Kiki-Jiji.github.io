@@ -1,4 +1,14 @@
 
+@media only screen and (max-device-width: 600px) {
+  .bio img {
+    width: 100% !important;
+  }
+
+  .bio {
+    padding: 0 !important;
+  }
+}
+
 .bio p {
   padding: 3em;
   line-height: 300%;
@@ -7,6 +17,7 @@
 
 .bio {
   background-color: white;
+  padding: 5em;
 }
 
 body {
@@ -16,21 +27,12 @@ body {
 .row {
   padding-top: 5em;
 }
-
-.bio {
-  padding: 5em;
-}
-
 .non{
     transition: all 3.8s ease;
 }
 
 .hidden {
   opacity: 0;
-}
-
-.non{
-    transition: all 3.8s ease;
 }
 
 .hidden1 {

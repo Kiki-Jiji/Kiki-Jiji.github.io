@@ -11,6 +11,16 @@ body {
   margin: 2em;
 }
 
+@media only screen and (max-device-width: 600px) {
+  .mobile {
+    margin-bottom: 20px;
+  }
+  .flip-card {
+    margin: auto !important;
+    margin-bottom: 50px !important;
+  }
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
